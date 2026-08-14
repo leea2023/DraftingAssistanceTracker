@@ -4,9 +4,9 @@
 
 This document summarizes the status of Andrew Lee's ongoing projects focused on automating repetitive drafting tasks.
 
-> Approximately 50% of my time is spent converting drawings from one format into another. I'd like to change that.
+> Approximately 50% of my time is spent converting drawings from one format into another.
 
-All work is completed on my own time. This is primarily a passion project, as I enjoy building automation tools and eliminating repetitive work.
+All work is completed on my own time. This is primarily a passion project, i just like automating things.
 
 ---
 
@@ -58,7 +58,7 @@ Additional functionality:
 - Await delivery of DS-50000 large-format scanner for further development
 - Laser-cut stencil to create consistent markups
 - Design an internal "universal" on-page coordinate system
-- Create `.DWG` generator with:
+- Create proof of concept `.DWG` generator with:
   - Layers
   - Color handling
 
