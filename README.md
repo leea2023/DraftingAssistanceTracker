@@ -1,8 +1,9 @@
 # DraftingAssistanceTracker
 **WHAT IS THIS?**
 
-All of Andrew Lee's ongoing projects to automate repeated construction drafting and markup processes.
-All done on my own time. Mostly a passion project for me, I like automating things
+This is a summary, and status of Andrew Lee's ongoing projects to automate repeated drafting tasks.
+50% of my time is spent converting drawings from one format into another? Would like to change that.
+All done on my own time. Mostly a passion project for me, I like automating things.
 
 
 PROJECT 1: Hand drawn butterfly diagram to Microstation drawing
