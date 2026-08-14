@@ -1,27 +1,117 @@
-# DraftingAssistanceTracker
-**WHAT IS THIS?**
+# Drafting Assistance Tracker
 
-This is a summary, and status of Andrew Lee's ongoing projects to automate repeated drafting tasks.
-50% of my time is spent converting drawings from one format into another? Would like to change that.
-All done on my own time. Mostly a passion project for me, I like automating things.
+## What Is This?
 
+This document summarizes the status of Andrew Lee's ongoing projects focused on automating repetitive drafting tasks.
 
-PROJECT 1: Hand drawn butterfly diagram to Microstation drawing
-* Why: We spend lots of time turning hand drawn butterfly diagrams into digital drawings that nearly look the exact same. Could save ~1hr per MH if the initial conversion was automated.
-* End goal: Automatically turns hand drawn Manhole diagrams into (1) Bluebeam drawing created with native markups and (2) Microstation ready drawings, with layers. Separates different ckts by color and labels. Final will have a GUI and quick review loop to human verify ckt labels, paths, and end points.
-* Status: 15%
-* Done: Created machine friendly MH diagram template. Identified minimum scan requirements (24 bit RGB TIFF @ 300DPI), automated scans via Windows Image Acquisition, high level color separation and template subtraction. Achieved <1 pixel page alignment with April Tags and checkerboard edges. Identified high level requirements for export to microstation.
-* TODO: Awaiting delivery of DS-50000 large format scanner for further development. Will lasercut stencil to create consistent markups. Must design an internal "universal" on-page coordinate system. Must create .DWG generator, with layers + color
+> Approximately 50% of my time is spent converting drawings from one format into another. I'd like to change that.
 
+All work is completed on my own time. This is primarily a passion project, as I enjoy building automation tools and eliminating repetitive work.
 
-PROJECT 2: Ocalc to Bluebeam Stickfigure
-* Purpose: Automatically turns Ocalc poles into Bluebeam native stickfigures, automatically formatted and measured out. Removes repetitive hand drawn work.
-* Status: 60%.
-* Done: Bluebeam .bax format documentation; .bax generator; relevant information extraction via pplx_extract; initially generated stick figures; adding and switching output "templates" in isolated folders; adding additional geometry (termimesh, guys).
-* TODO: Replace drawn measurement labels with Bluebeam native measurements; Add customizable "templates" added to output .bax files; Add text box collision detection and prevention; Auto insert "suggested HECO standards" per pole, based on higher level pole properties (components, # of phases, span attachments and angle, **EXISTING VS NEW DETECTION**). 
+---
 
+# Project 1: Hand-Drawn Butterfly Diagram → MicroStation Drawing
 
-PROJECT 3: pplx_extract
-* Purpose: A general info extraction library for Ocalc pplx and pplld files. Extracts pole shape and components to a typed object model, and schema agnostic normalized tree.
-* Status: Complete.
-* Roadmap: N/A, unless anyone has any suggestions.
+## Why
+
+We spend significant time converting hand-drawn butterfly diagrams into digital drawings.
+
+**Potential savings:** ~1 hour per manhole (MH) if the initial conversion process is automated.
+
+## End Goal
+
+Automatically convert hand-drawn manhole diagrams into:
+
+1. **Bluebeam drawings** using native markups
+2. **MicroStation-ready drawings** with proper layers
+
+Additional functionality:
+
+- Separate different circuits by color
+- Automatically generate labels
+- GUI-based workflow
+- Fast human review loop for:
+  - Circuit labels
+  - Circuit paths
+  - Circuit endpoints
+
+## Status
+
+**15% Complete**
+
+## Completed
+
+- Created machine-friendly MH diagram template
+- Identified minimum scan requirements:
+  - 24-bit RGB TIFF
+  - 300 DPI
+- Automated scanning via Windows Image Acquisition
+- Implemented high-level color separation
+- Implemented template subtraction
+- Achieved <1 pixel page alignment using:
+  - AprilTags
+  - Checkerboard edges
+- Identified high-level requirements for MicroStation export
+
+## TODO
+
+- Await delivery of DS-50000 large-format scanner for further development
+- Laser-cut stencil to create consistent markups
+- Design an internal "universal" on-page coordinate system
+- Create `.DWG` generator with:
+  - Layers
+  - Color handling
+
+---
+
+# Project 2: Ocalc → Bluebeam Stick Figure
+
+## Purpose
+
+Automatically convert Ocalc poles into Bluebeam native stick figures that are:
+
+- Automatically formatted
+- Automatically measured
+- Ready for use without repetitive manual drafting
+
+## Status
+
+**60% Complete**
+
+## Completed
+
+- Bluebeam `.bax` format documentation
+- `.bax` generator
+- Relevant information extraction via `pplx_extract`
+- Initial stick-figure generation
+- Output template switching using isolated folders
+- Additional geometry support:
+  - Termimesh
+  - Guys
+
+## TODO
+
+- Replace drawn measurement labels with Bluebeam native measurements
+- Add customizable templates to generated `.bax` files
+- Add text-box collision detection and prevention
+- Auto-insert suggested HECO standards per pole based on:
+  - Installed components
+  - Number of phases
+  - Span attachments and angle
+  - **EXISTING vs. NEW detection**
+
+---
+
+# Project 3: pplx_extract
+
+## Purpose
+
+A general-purpose information extraction library for Ocalc `pplx` and `pplld` files.
+
+Capabilities:
+
+- Extracts pole shape and components
+- Converts data into a typed object model
+- Produces a schema-agnostic normalized tree
+
+##
