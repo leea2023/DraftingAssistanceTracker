@@ -8,7 +8,25 @@ All work is completed on my own time. This is not economical; the amount of time
 
 ---
 
-# Project 1: Hand-Drawn Butterfly Diagram → MicroStation Drawing
+# Project 1: pplx_extract
+
+## Purpose
+
+A general-purpose information extraction library for Ocalc `pplx` and `pplld` files.
+
+Capabilities:
+
+- Extracts pole shape and components
+- Converts data into a typed object model
+- Produces a schema-agnostic normalized tree
+
+## Status
+
+**Complete**
+https://github.com/leea2023/pplx_extract
+Feel free to use and suggest any improvements!
+
+# Project 2: Hand-Drawn Butterfly Diagram → MicroStation Drawing
 
 ## Why
 
@@ -94,22 +112,5 @@ Automatically convert Ocalc poles into Bluebeam native stick figures.
 
 ---
 
-# Project 3: pplx_extract
-
-## Purpose
-
-A general-purpose information extraction library for Ocalc `pplx` and `pplld` files.
-
-Capabilities:
-
-- Extracts pole shape and components
-- Converts data into a typed object model
-- Produces a schema-agnostic normalized tree
-
-## Status
-
-**Complete**
-
-Feel free to use and suggest any improvements!
 
 ##
