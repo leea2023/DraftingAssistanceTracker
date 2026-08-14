@@ -80,7 +80,7 @@ Additional functionality:
 
 ---
 
-# Project 2: Ocalc → Bluebeam Stick Figure
+# Project 3: Ocalc → Bluebeam Stick Figure
 
 ## Purpose
 
