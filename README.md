@@ -7,8 +7,8 @@ All done on my own time. Mostly a passion project for me, I like automating thin
 
 PROJECT 1: Hand drawn butterfly diagram to Microstation drawing
 * Why: We spend lots of time turning hand drawn butterfly diagrams into digital drawings that nearly look the exact same. Could save ~1hr per MH if the initial conversion was automated.
-* End goal: Automatically turns hand drawn Manhole diagrams into (1) Bluebeam drawing created with native markups and (2) Microstation ready drawings, with layers. Separates different ckts by color and labels. End product will come with a built in GUI and quick review loop to verify ckt labels, paths, and end points.
-* Status: 10%
+* End goal: Automatically turns hand drawn Manhole diagrams into (1) Bluebeam drawing created with native markups and (2) Microstation ready drawings, with layers. Separates different ckts by color and labels. Final will have a GUI and quick review loop to human verify ckt labels, paths, and end points.
+* Status: 15%
 * Done: Created machine friendly MH diagram template. Identified minimum scan requirements (24 bit RGB TIFF @ 300DPI), automated scans via Windows Image Acquisition, high level color separation and template subtraction. Achieved <1 pixel page alignment with April Tags and checkerboard edges. Identified high level requirements for export to microstation.
 * TODO: Awaiting delivery of DS-50000 large format scanner for further development. Will lasercut stencil to create consistent markups. Must design an internal "universal" on-page coordinate system. Must create .DWG generator, with layers + color
 
@@ -23,4 +23,4 @@ PROJECT 2: Ocalc to Bluebeam Stickfigure
 PROJECT 3: pplx_extract
 * Purpose: A general info extraction library for Ocalc pplx and pplld files. Extracts pole shape and components to a typed object model, and schema agnostic normalized tree.
 * Status: Complete.
-* Roadmap: N/A
+* Roadmap: N/A, unless anyone has any suggestions.
