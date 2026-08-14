@@ -68,11 +68,7 @@ Additional functionality:
 
 ## Purpose
 
-Automatically convert Ocalc poles into Bluebeam native stick figures that are:
-
-- Automatically formatted
-- Automatically measured
-- Ready for use without repetitive manual drafting
+Automatically convert Ocalc poles into Bluebeam native stick figures.
 
 ## Status
 
@@ -85,9 +81,7 @@ Automatically convert Ocalc poles into Bluebeam native stick figures that are:
 - Relevant information extraction via `pplx_extract`
 - Initial stick-figure generation
 - Output template switching using isolated folders
-- Additional geometry support:
-  - Termimesh
-  - Guys
+- Additional geometry support (Termimesh and Guys)
 
 ## TODO
 
