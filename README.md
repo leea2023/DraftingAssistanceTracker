@@ -1,5 +1,7 @@
 # DraftingAssistanceTracker
-Andrew Lee's ongoing projects to automate repeated construction drafting and markup processes.
+**WHAT IS THIS?**
+
+All of Andrew Lee's ongoing projects to automate repeated construction drafting and markup processes.
 All done on my own time. Mostly a passion project for me, I like automating things
 
 
