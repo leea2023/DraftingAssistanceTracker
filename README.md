@@ -4,7 +4,7 @@
 
 This summarizes the status of Andrew Lee's ongoing projects focused on automating repetitive drafting tasks.
 
-All work is completed on my own time. This is not economical; the amount of time i spend on this is much larger than the time I save. This is primarily a passion project, i just like automating things.
+All work is completed on my own time. Primarily a passion project; the amount of time i spend on this is much larger than the time I save
 
 ---
 
@@ -17,8 +17,8 @@ A general-purpose information extraction library for Ocalc `pplx` and `pplld` fi
 Capabilities:
 
 - Extracts pole shape and components
-- Converts data into a typed object model
-- Produces a schema-agnostic normalized tree
+- Produces a schema-agnostic normalized tree, converted into a typed object model
+
 
 ## Status
 
