@@ -12,7 +12,9 @@ All work is completed on my own time. Primarily a passion project; the amount of
 
 ## Purpose
 
-A general-purpose information extraction library for Ocalc `pplx` and `pplld` files.
+A general-purpose information and shape extraction library for Ocalc `pplx` and `pplld` files.
+
+Reusable for future projects that involve extracting information from Ocalc files. 
 
 Capabilities:
 
