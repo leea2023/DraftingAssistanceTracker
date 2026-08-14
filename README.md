@@ -84,10 +84,10 @@ Automatically convert Ocalc poles into Bluebeam native stick figures.
 ## TODO
 
 - Replace drawn measurement labels with Bluebeam native measurements
-- Add customizable templates to generated `.bax` files
+- Add the option for user imported "templates" to generated `.bax` files
 - Add text-box collision detection and prevention
-- Auto-insert suggested HECO standards per pole based on:
-  - Installed components
+- Detect and suggest HECO standards per pole based on:
+  - Components
   - Number of phases
   - Span attachments and angle
   - **EXISTING vs. NEW detection**
