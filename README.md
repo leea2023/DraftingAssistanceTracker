@@ -2,11 +2,9 @@
 
 ## What Is This?
 
-This document summarizes the status of Andrew Lee's ongoing projects focused on automating repetitive drafting tasks.
+This summarizes the status of Andrew Lee's ongoing projects focused on automating repetitive drafting tasks.
 
-> Approximately 50% of my time is spent converting drawings from one format into another.
-
-All work is completed on my own time. This is primarily a passion project, i just like automating things.
+All work is completed on my own time. This is not economical; the amount of time i spend on this is much larger than the time I save. This is primarily a passion project, i just like automating things.
 
 ---
 
