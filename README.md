@@ -108,4 +108,10 @@ Capabilities:
 - Converts data into a typed object model
 - Produces a schema-agnostic normalized tree
 
+## Status
+
+**Complete**
+
+Feel free to use and suggest any improvements!
+
 ##
