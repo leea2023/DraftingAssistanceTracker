@@ -35,7 +35,7 @@ Additional functionality:
 
 ## Status
 
-**15% Complete**
+**15%**
 
 ## Completed
 
@@ -70,7 +70,7 @@ Automatically convert Ocalc poles into Bluebeam native stick figures.
 
 ## Status
 
-**60% Complete**
+**60%**
 
 ## Completed
 
