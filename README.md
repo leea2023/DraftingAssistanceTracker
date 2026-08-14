@@ -12,9 +12,9 @@ All work is completed on my own time. This is not economical; the amount of time
 
 ## Why
 
-We spend significant time converting hand-drawn butterfly diagrams into digital drawings.
+We spend significant time converting hand drawn butterfly diagrams into digital drawings.
 
-**Potential savings:** ~1 hour per manhole (MH) if the initial conversion process is automated.
+**Potential savings:** 1 hour per manhole if the initial conversion process is automated.
 
 ## End Goal
 
