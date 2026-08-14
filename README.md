@@ -44,12 +44,8 @@ Automatically convert hand-drawn manhole diagrams into:
 Additional functionality:
 
 - Separate different circuits by color
-- Automatically generate labels
-- GUI-based workflow
-- Fast human review loop for:
-  - Circuit labels
-  - Circuit paths
-  - Circuit endpoints
+- Automatically generate labels (using OCR or locally run vision LLM? not sure yet)
+- GUI-based workflow with human review loop
 
 ## Status
 
@@ -57,17 +53,17 @@ Additional functionality:
 
 ## Completed
 
-- Created machine-friendly MH diagram template
+- Created new, machine-friendly MH diagram template
 - Identified minimum scan requirements:
   - 24-bit RGB TIFF
   - 300 DPI
-- Automated scanning via Windows Image Acquisition
-- Implemented high-level color separation
-- Implemented template subtraction
+- Confirmed Windows Image Acquisition works
+- Proof of concept high-level color separation
+- Proof of concept template subtraction
 - Achieved <1 pixel page alignment using:
   - AprilTags
   - Checkerboard edges
-- Identified high-level requirements for MicroStation export
+- Identified high-level requirements for MicroStation export requirements
 
 ## TODO
 
